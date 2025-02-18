@@ -1,0 +1,74 @@
+.container {
+  text-align: center;
+  color: #e0e0e0;
+  background: #0d1b2a;
+  padding: 10px 30px;
+  margin-left: 30rem;
+}
+
+h1 {
+  font-size: 1.5rem;
+  margin-bottom: 7px;
+}
+
+p {
+  color: #9dbcd4;
+}
+
+.ticket {
+  background: #14253d;
+  padding: 20px;
+  border-radius: 12px;
+  display: inline-block;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  width: 300px;
+}
+
+.profilePhoto {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin: 10px auto;
+}
+
+.ticketDetails {
+  text-align: justify;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.DownloadButton,
+.BookButton {
+  padding: 8px 10px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.DownloadButton {
+  background: #29b6f6;
+  color: #ffffff;
+}
+
+.DownloadButton:hover {
+  background: #0288d1;
+}
+
+.BookButton {
+  background: rgba(255, 255, 255, 0.1);
+  color: #9dbcd4;
+}
+
+.BookButton:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+@media (max-width: 768px) {
+  .container {
+    margin: 2rem auto;
+  }
+}

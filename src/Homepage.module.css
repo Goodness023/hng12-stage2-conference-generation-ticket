@@ -1,0 +1,42 @@
+body {
+  background-image: url("/ticket background.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.homepage-card {
+  padding: 1rem 3rem;
+  margin-left: 28rem;
+  text-align: center;
+  background-color: cadetblue;
+  box-shadow: 2px 2px;
+  border: 1px solid cadetblue;
+}
+
+.homepage-card h1 {
+  color: whitesmoke;
+}
+
+.homepage-card p {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.homepage-card button {
+  color: cadetblue;
+  background-color: whitesmoke;
+  font-weight: 700;
+  border-radius: 30px;
+}
+
+.homepage-card button:hover {
+  background-color: skyblue;
+  color: floralwhite;
+}
+
+@media (max-width: 768px) {
+  .homepage-card {
+    margin: auto 5rem;
+  }
+}
